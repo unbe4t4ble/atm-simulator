@@ -71,18 +71,18 @@ Logout => logout
     │   └── util                   # common usecases
     |
     ├── feature                    # all features
-        ├── atm                    # Feature 1 (for exp : Todo Feature)
-            ├── data               # Data Files of Feature 1
+        ├── atm                    # atm
+            ├── data               # Data Files of atm
             ├   └── datasources    # DataSources Abstract Files and Implementations
             ├   └── models         # Models for data
             ├   └── repositories   # Repositories Implementation Classes
             └── domain             # Domain
-            ├   └── entities       # Entities For Feature 1
-            ├   └── usecases       # Usecases of Feature 1
+            ├   └── entities       # Entities For atm
+            ├   └── usecases       # Usecases of atm
             ├   └── repositories   #   Repositories Abstract Classes
-            ├── presentation       # Feature 1 presentation files
-            │   └── blocs          # Feature 1 blocs
-            │   └── pages          # Feature 1 pages
+            ├── presentation       # atm presentation files
+            │   └── blocs          # atm blocs
+            │   └── pages          # atm pages
 
 ## Architecture
 
